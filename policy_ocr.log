@@ -1,0 +1,258 @@
+2021-10-25 19:32:46,328---225----werkzeug:  * Restarting with stat
+2021-10-25 19:33:12,573---225----werkzeug:  * Debugger is active!
+2021-10-25 19:33:12,612---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:33:14,466---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:33:14,466---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:33:34,343---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:33:34,366---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:33:34] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:36:45,115---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:36:45,138---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:36:45] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:37:44,508---225----werkzeug:  * Restarting with stat
+2021-10-25 19:38:02,282---225----werkzeug:  * Debugger is active!
+2021-10-25 19:38:02,356---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:38:05,295---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:38:05,295---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:38:08,552---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:38:08,558---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:38:08] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:38:42,603---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:38:42,607---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:38:42] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:40:04,038---225----werkzeug:  * Restarting with stat
+2021-10-25 19:40:27,553---225----werkzeug:  * Debugger is active!
+2021-10-25 19:40:27,782---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:40:29,582---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:40:29,582---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:40:29,991---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:40:29,996---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:40:29] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:40:31,971---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:40:31,974---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:40:31] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:40:33,961---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:40:33,964---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:40:33] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:42:14,067---225----werkzeug:  * Restarting with stat
+2021-10-25 19:42:36,575---225----werkzeug:  * Debugger is active!
+2021-10-25 19:42:36,618---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:42:38,012---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:42:38,013---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:42:40,759---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:42:40,780---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:42:40] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:43:06,026---225----werkzeug:  * Restarting with stat
+2021-10-25 19:43:27,178---225----werkzeug:  * Debugger is active!
+2021-10-25 19:43:27,214---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:43:30,764---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:43:30,765---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:44:51,314---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:44:51,333---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:44:51] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:45:05,840---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:45:05,842---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:45:05] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:47:08,132---225----werkzeug:  * Restarting with stat
+2021-10-25 19:47:27,456---225----werkzeug:  * Debugger is active!
+2021-10-25 19:47:27,499---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:47:28,926---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:47:28,927---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:47:45,209---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:47:45,223---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:47:45] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:48:02,672---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:48:02,673---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:48:02] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:48:09,528---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:48:09,529---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:48:09] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:48:09,921---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:48:09,922---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:48:09] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:48:10,298---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:48:10,299---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:48:10] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:48:43,079---225----werkzeug:  * Restarting with stat
+2021-10-25 19:48:58,752---225----werkzeug:  * Debugger is active!
+2021-10-25 19:48:58,776---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:48:59,684---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:48:59,684---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:49:04,314---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:49:04,315---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:49:04] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:49:06,242---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:49:06,243---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:49:06] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:49:33,224---225----werkzeug:  * Restarting with stat
+2021-10-25 19:50:03,331---225----werkzeug:  * Debugger is active!
+2021-10-25 19:50:03,365---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:50:04,601---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:50:04,601---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:50:04,723---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:50:04,725---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:50:04] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:55:32,037---225----werkzeug:  * Restarting with stat
+2021-10-25 19:56:04,184---225----werkzeug:  * Debugger is active!
+2021-10-25 19:56:04,349---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 19:56:06,943---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 19:56:06,943---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 19:56:13,668---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 19:56:13,672---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 19:56:13] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 19:59:44,561---225----werkzeug:  * Restarting with stat
+2021-10-25 20:00:07,656---225----werkzeug:  * Debugger is active!
+2021-10-25 20:00:07,687---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 20:00:09,244---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 20:00:09,244---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 20:00:24,934---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 20:00:24,936---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 20:00:24] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 20:01:34,447---225----werkzeug:  * Restarting with stat
+2021-10-25 20:01:50,116---225----werkzeug:  * Debugger is active!
+2021-10-25 20:01:50,187---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 20:02:02,837---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 20:02:02,838---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 20:02:21,045---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 20:02:21,048---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 20:02:21] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 20:02:54,632---225----werkzeug:  * Restarting with stat
+2021-10-25 20:03:06,581---225----werkzeug:  * Debugger is active!
+2021-10-25 20:03:06,610---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-25 20:03:07,923---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-25 20:03:07,924---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-25 20:03:09,539---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 20:03:09,541---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 20:03:09] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 20:03:53,448---77----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-25 20:03:53,449---225----werkzeug: 127.0.0.1 - - [25/Oct/2021 20:03:53] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-25 20:04:54,114---225----werkzeug:  * Detected change in 'H:\\okay-project\\ocrpytorch-model\\ocr_svr\\ocr_http.py', reloading
+2021-10-26 10:01:50,681---225----werkzeug:  * Restarting with stat
+2021-10-26 10:02:23,843---225----werkzeug:  * Debugger is active!
+2021-10-26 10:02:23,876---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:02:25,426---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:02:25,427---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:02:49,718---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-26 10:02:49,722---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:02:49] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:02:55,843---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-26 10:02:55,844---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:02:55] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:04:07,416---225----werkzeug:  * Restarting with stat
+2021-10-26 10:04:33,704---225----werkzeug:  * Debugger is active!
+2021-10-26 10:04:33,736---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:04:35,330---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:04:35,330---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:04:50,169---70----root: 识别完成--ok
+2021-10-26 10:04:50,182---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:04:50] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:05:05,462---70----root: 识别完成--ok
+2021-10-26 10:05:05,470---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:05:05] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:05:16,316---70----root: 识别完成--ok
+2021-10-26 10:05:16,335---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:05:16] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:07:00,097---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:07:00,098---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:07:58,171---70----root: 识别完成--ok
+2021-10-26 10:07:58,173---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:07:58] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:09:11,524---225----werkzeug:  * Restarting with stat
+2021-10-26 10:09:23,361---225----werkzeug:  * Debugger is active!
+2021-10-26 10:09:23,410---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:09:25,416---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:09:25,419---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:10:02,570---70----root: 识别完成--ok
+2021-10-26 10:10:02,582---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:10:02] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:12:32,001---225----werkzeug:  * Restarting with stat
+2021-10-26 10:12:51,589---225----werkzeug:  * Debugger is active!
+2021-10-26 10:12:51,625---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:12:52,909---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:12:52,910---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:20:10,560---225----werkzeug:  * Restarting with stat
+2021-10-26 10:20:29,187---225----werkzeug:  * Debugger is active!
+2021-10-26 10:20:29,221---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:20:32,765---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:20:32,766---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:20:43,998---76----root: 识别失败ocr() got an unexpected keyword argument 'char_position'
+2021-10-26 10:20:44,001---225----werkzeug: 127.0.0.1 - - [26/Oct/2021 10:20:44] "POST /api/ocr/rec HTTP/1.1" 200 -
+2021-10-26 10:24:21,601---225----werkzeug:  * Restarting with stat
+2021-10-26 10:24:36,339---225----werkzeug:  * Debugger is active!
+2021-10-26 10:24:36,370---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:24:41,388---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:24:41,388---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-10-26 10:26:03,146---225----werkzeug:  * Restarting with stat
+2021-10-26 10:26:14,265---225----werkzeug:  * Debugger is active!
+2021-10-26 10:26:14,295---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-10-26 10:26:15,499---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-26 10:26:15,500---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2021-11-12 10:31:34,380---225----werkzeug:  * Restarting with stat
+2021-11-12 10:31:54,199---225----werkzeug:  * Debugger is active!
+2021-11-12 10:31:54,225---225----werkzeug:  * Debugger PIN: 141-441-756
+2021-11-12 10:31:55,903---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-11-12 10:31:55,904---225----werkzeug:  * Running on http://10.60.145.10:8092/ (Press CTRL+C to quit)
+2022-03-12 21:34:15,680---225----werkzeug:  * Restarting with stat
+2022-03-12 21:34:43,129---225----werkzeug:  * Debugger is active!
+2022-03-12 21:34:43,285---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:34:46,024---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:34:46,024---225----werkzeug:  * Running on http://192.168.1.6:8092/ (Press CTRL+C to quit)
+2022-03-12 21:38:30,717---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:38:33,601---71----root: 识别完成--ok
+2022-03-12 21:38:33,665---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:38:33] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:40:37,300---225----werkzeug:  * Restarting with stat
+2022-03-12 21:40:59,562---225----werkzeug:  * Debugger is active!
+2022-03-12 21:40:59,629---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:41:01,305---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:41:01,305---225----werkzeug:  * Running on http://192.168.1.6:8092/ (Press CTRL+C to quit)
+2022-03-12 21:41:05,573---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:41:11,145---71----root: 识别完成--ok
+2022-03-12 21:41:11,201---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:41:11] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:41:41,467---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:41:42,649---71----root: 识别完成--ok
+2022-03-12 21:41:42,650---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:41:42] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:42:45,653---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:42:46,572---71----root: 识别完成--ok
+2022-03-12 21:42:46,572---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:42:46] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:43:26,070---225----werkzeug:  * Restarting with stat
+2022-03-12 21:43:43,415---225----werkzeug:  * Debugger is active!
+2022-03-12 21:43:43,450---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:43:45,245---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:43:45,245---225----werkzeug:  * Running on http://192.168.1.6:8092/ (Press CTRL+C to quit)
+2022-03-12 21:43:51,644---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:43:54,032---71----root: 识别完成--ok
+2022-03-12 21:43:54,040---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:43:54] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:44:18,107---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:44:19,016---71----root: 识别完成--ok
+2022-03-12 21:44:19,017---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:44:19] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:46:15,803---225----werkzeug:  * Restarting with stat
+2022-03-12 21:46:42,096---225----werkzeug:  * Debugger is active!
+2022-03-12 21:46:42,154---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:46:43,961---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:46:43,962---225----werkzeug:  * Running on http://192.168.1.6:8092/ (Press CTRL+C to quit)
+2022-03-12 21:46:46,562---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:46:48,854---71----root: 识别完成--ok
+2022-03-12 21:46:48,871---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:46:48] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:47:32,845---225----werkzeug:  * Restarting with stat
+2022-03-12 21:47:55,305---225----werkzeug:  * Debugger is active!
+2022-03-12 21:47:55,370---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:47:58,836---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:47:58,836---225----werkzeug:  * Running on http://192.168.1.6:8092/ (Press CTRL+C to quit)
+2022-03-12 21:48:51,921---225----werkzeug:  * Restarting with stat
+2022-03-12 21:49:09,988---225----werkzeug:  * Debugger is active!
+2022-03-12 21:49:10,030---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:49:11,711---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:49:11,711---225----werkzeug:  * Running on http://192.168.1.6:8093/ (Press CTRL+C to quit)
+2022-03-12 21:52:25,841---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:52:27,493---71----root: 识别完成--ok
+2022-03-12 21:52:27,510---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:52:27] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:57:29,554---225----werkzeug:  * Restarting with stat
+2022-03-12 21:57:49,802---225----werkzeug:  * Debugger is active!
+2022-03-12 21:57:49,859---225----werkzeug:  * Debugger PIN: 141-441-756
+2022-03-12 21:57:59,778---225----werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-12 21:57:59,778---225----werkzeug:  * Running on http://192.168.1.6:8093/ (Press CTRL+C to quit)
+2022-03-12 21:58:01,785---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:58:03,514---71----root: 识别完成--ok
+2022-03-12 21:58:03,604---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:58:03] "POST /api/ocr/rec HTTP/1.1" 200 -
+2022-03-12 21:58:13,029---254----root: Since the angle classifier is not initialized, the angle classifier will not be uesd during the forward process
+2022-03-12 21:58:13,966---71----root: 识别完成--ok
+2022-03-12 21:58:13,967---225----werkzeug: 127.0.0.1 - - [12/Mar/2022 21:58:13] "POST /api/ocr/rec HTTP/1.1" 200 -

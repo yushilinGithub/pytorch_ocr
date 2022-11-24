@@ -1,0 +1,156 @@
+Global:
+  use_gpu: true
+  epoch_num: 200
+  log_smooth_window: 20
+  print_batch_step: 4
+  save_model_dir: ./output/det/swin/
+  save_epoch_step: 40
+  # evaluation is run every 5000 iterations after the 4000th iteration
+  eval_batch_step: [0,10]
+  cal_metric_during_train: False
+  pretrained_model: ./output/det/swin/upernet_swin_base_patch4_window7_512x512.pth
+#  pretrained_model2: output/det/swin/moby_upernet_swin_tiny_patch4_window7_512x512.pth
+#  pretrained_model2: output/det/swin/upernet_swin_tiny_patch4_window7_512x512.pth
+  checkpoints:
+  save_inference_dir:
+  use_visualdl: False
+  infer_img: doc/imgs_en/img_10.jpg
+  save_res_path: ./output/det_db/predicts_db.txt
+
+Architecture:
+  model_type: det
+  algorithm: DB
+  Transform:
+  Backbone:
+    name: SwinTransformer
+    embed_dim: 128
+#    depths: [2, 2, 6, 2]
+    depths: [2, 2,18]
+#    num_heads: [2, 4, 8, 16]
+    num_heads: [4, 8,16]
+    window_size: 7
+    mlp_ratio: 4.
+    qkv_bias: True
+    qk_scale: None
+    drop_rate: 0.
+    attn_drop_rate: 0.
+    drop_path_rate: 0.2
+    ape: False
+    patch_norm: True
+#    out_indices: [0, 1, 2, 3]
+    out_indices: [0,1,2]
+    use_checkpoint: False
+  Neck:
+    name: SWINFPN
+    out_channels: 256
+  Head:
+    name: DBHead
+    k: 50
+
+Loss:
+  name: DBLoss
+  balance_loss: true
+  main_loss_type: DiceLoss
+  alpha: 5
+  beta: 10
+  ohem_ratio: 5
+
+Optimizer:
+  name: Adam
+  beta1: 0.9
+  beta2: 0.999
+  lr:
+    name: Cosine
+    learning_rate: 0.00005
+#    warmup_epoch: 2
+  regularizer:
+    name: 'L2'
+    factor: 0
+#    my_factor: 0.00004
+
+PostProcess:
+  name: DBPostProcess
+  thresh: 0.3
+  box_thresh: 0.6
+  max_candidates: 1000
+  unclip_ratio: 2.1
+  score_mode: "slow"
+
+Metric:
+  name: DetMetric
+  main_indicator: hmean
+
+Train:
+  dataset:
+    name: SimpleDataSet
+    data_dir: ./train_data/db_data
+    label_file_list:
+      - ./train_data/db_data/train_label2.txt
+    ratio_list: [1.0]
+    transforms:
+      - DecodeImage: # load image
+          img_mode: BGR
+          channel_first: False
+      - DetLabelEncode: # Class handling label
+#      - CopyPaste: # 在数据增强之前做，否则会贴到mask区域
+#          objects_paste_ratio: 0.1
+#          limit_paste: True
+      - IaaAugment:
+          augmenter_args:
+#            - { 'type': Fliplr, 'args': { 'p': 0.5 } }
+            - { 'type': Affine, 'args': { 'rotate': [-45, 45] } }
+            - { 'type': Resize, 'args': { 'size': [0.5, 2] } }
+            - { 'type': 'GaussianBlur','args': {'sigma': [ 0.0, 3.5 ]}}
+      - EastRandomCropData:
+          size: [960, 1280]
+          max_tries: 0   # 文本区域分布较广  不进行剪切  直接resize
+          keep_ratio: true
+      - MakeBorderMap:
+          shrink_ratio: 0.25
+          thresh_min: 0.3
+          thresh_max: 0.7
+      - MakeShrinkMap:
+          shrink_ratio: 0.25
+          min_text_size: 8
+      - NormalizeImage:
+          scale: 1./255.
+          mean: [0.485, 0.456, 0.406]
+          std: [0.229, 0.224, 0.225]
+          order: 'hwc'
+      - ToCHWImage:
+      - KeepKeys:
+          keep_keys: ['image', 'threshold_map', 'threshold_mask', 'shrink_map', 'shrink_mask'] # the order of the dataloader list
+  loader:
+    shuffle: False
+    drop_last: False
+    batch_size_per_card: 1
+    num_workers: 1
+
+Eval:
+  dataset:
+    name: SimpleDataSet
+    data_dir: ./train_data/db_data
+    label_file_list:
+      - ./train_data/db_data/test_label.txt
+    transforms:
+      - DecodeImage: # load image
+          img_mode: BGR
+          channel_first: False
+      - DetLabelEncode: # Class handling label
+      - DetResizeForTest:
+            limit_side_len: 1344  # 如果标注的时候  PPOCRLABEL中的det_limit_side_len和limit_side_len不一致，将导致预测的像素单位与标签的像素单位不一致,预测时大小尽量和训练时大小一致
+            limit_type: max
+#           image_shape: [960, 1280]
+      - NormalizeImage:
+          scale: 1./255.
+          mean: [0.485, 0.456, 0.406]
+          std: [0.229, 0.224, 0.225]
+          order: 'hwc'
+      - ToCHWImage:
+      - KeepKeys:
+          keep_keys: ['image', 'shape', 'polys', 'ignore_tags']
+  loader:
+    shuffle: False
+    drop_last: False
+    batch_size_per_card: 1 # must be 1
+    num_workers: 2

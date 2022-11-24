@@ -1,0 +1,1 @@
+python -m torch.distributed.launch train.py -c configs/rec/rec_r34_vd_none_bilstm_ctc.yml
